@@ -91,6 +91,14 @@ public class NetThread extends Thread{
                     output.flush();
                     break;
                 }
+                case "-addStock":{
+                    Car car =(Car) input.readObject();
+                    int amount = input.readInt();
+                    boolean result = Loader.getInstance().addStock(car.getRegistrationNumber(), amount);
+                    output.writeBoolean(result);
+                    output.flush();
+                    break;
+                }
                 case "-delete":{
                     Car car = (Car) input.readObject();
                     boolean result = Loader.getInstance().deleteCar(car.getRegistrationNumber());

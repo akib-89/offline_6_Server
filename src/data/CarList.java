@@ -4,7 +4,6 @@ package data;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class CarList {
     private final HashMap<Car,Integer> cars;
@@ -62,15 +61,16 @@ public class CarList {
         this.cars.put(car,previous - amount);
         return true;
     }
-    public Map<Car,Integer> getMap(){
-        return cars;
-    }
 
-    public void removeAll(){
-        cars.clear();
-    }
-
-    public void setItems(Map<Car,Integer> items){
-        cars.putAll(items);
+    public boolean addStock(String registrationNumber, int amount) {
+        Car car = this.searchCar( registrationNumber);
+        if (amount>0) {
+            if (car != null) {
+                int previous = cars.get(car);
+                cars.put(car, previous + amount);
+                return true;
+            }
+        }
+        return false;
     }
 }

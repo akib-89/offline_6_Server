@@ -144,4 +144,10 @@ public class Loader {
         this.write();
         return result;
     }
+
+    public boolean addStock(String registrationNumber, int amount) {
+        boolean result =  carList.addStock(registrationNumber,amount);
+        this.write();
+        return result;
+    }
 }

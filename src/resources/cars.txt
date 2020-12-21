@@ -1,8 +1,7 @@
-ga6989,2001,Black,red,whiite,Lambhourghini,huracan,4900000.0,src\resources\img\ga6989.png,0
-2548gh,1990,white,black,,walton,huda,5999.0,src\resources\img\2548gh.png,0
-36598,1990,asdf,adsf,,akidf ,adsfe,54000.0,src\resources\img\36598.png,0
-7999fa,1990,red,black,,ford,musatng,5906500.0,src\resources\img\7999fa.png,0
-AFDS89,2004,BLACK,red,RED,TOYOTA,honda,45000.5,src\resources\img\AFDS89.png,17
+ga6989,2001,Black,red,whiite,Lambhourghini,huracan,4900000.0,src\resources\img\ga6989.png,4
+2548gh,1990,white,black,,walton,huda,5999.0,src\resources\img\2548gh.png,5
+gv1667,1999,red,black,green,ogor,hudai,50000.678,src\resources\img\gv1667.png,5
+36598,1990,asdf,adsf,,akidf ,adsfe,54000.0,src\resources\img\36598.png,9
+7999fa,1990,red,black,,ford,musatng,5906500.0,src\resources\img\7999fa.png,5
 ABC132,2007,Yellow,black,,Toyota,Corolla,5000.0,src\resources\img\ABC132.png,1
-78thst,2005,black,blue,,ford,mustang,16000.0,src\resources\img\78thst.png,0
-ga1689,2004,black,,,honda,runner,75000.86,src\resources\img\ga1689.png,0
+AFDS89,2004,BLACK,red,RED,TOYOTA,honda,600000.0,src\resources\img\AFDS89.png,16
